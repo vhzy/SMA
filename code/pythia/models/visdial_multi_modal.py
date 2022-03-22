@@ -1,9 +1,7 @@
 # Copyright (c) Facebook, Inc. and its affiliates.
 import torch
-
 from pythia.models.pythia import Pythia
 from pythia.modules.decoders import VisDialDiscriminator
-
 
 class VisDialMultiModalModel(Pythia):
     def __init__(self, config):
